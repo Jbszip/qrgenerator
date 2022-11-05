@@ -17,6 +17,17 @@
             <button id="send">Generar</button>
             <div class="qrcontainer" id="qrcontainer"></div>
         </div>
+        <div class="container">
+            <h1>QR para conexión WI-FI</h1>
+            <input type="text" name="red" id="red" placeholder="Ingrese el nombre de su red">
+            <select name="seguridad" id="seguridad" placeholder="Seleccione la seguridad de su red">
+                <option value="WPA">WPA/WEP</option>
+                <option value="nopass">Ninguna</option>
+            </select>
+            <input type="password" name="passowrd" id="password" placeholder="Ingrese la contraseña de su red">
+            <button id="generate">Generar</button>
+            <div class="qrwificontainer" id="qrwificontainer"></div>
+        </div>
     </main>
 </body>
 </html>
